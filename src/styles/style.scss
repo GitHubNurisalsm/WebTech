@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  transition: .5s;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.btn{
+  padding: 17px 37px;
+  border-radius: 35px;
+  background: var(--main, #377DFF);
+  border: 2px #377DFF solid;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.bt {
+  padding: 17px 37px;
+  border-radius: 35px ;
+  background-color: transparent;
+  border: 2px  #377DFF solid;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+@import "header";
+@import "desing";
+@import "works";
+@import "card";
+@import "best";
+@import "reasons";
+@import "futures";
+@import "reviews";
+@import "innovation";
+@import "news";

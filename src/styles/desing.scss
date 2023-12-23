@@ -1,0 +1,67 @@
+.design {
+  background: url("../assets/design.png") center/cover no-repeat;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding: 291px 0 31px;
+
+    &-text {
+      color: rgba(255, 255, 255, 0.13);
+      font-size: 140px;
+      font-weight: 400;
+    }
+
+    &-line {
+      width: 3px;
+      height: 120px;
+      background-color: #377DFF;
+      z-index: 30;
+    }
+
+    &-title {
+      color: #FFF;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      font-weight: 400;
+
+      span {
+        color: var(--main, #377DFF);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__desc {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 50%;
+  }
+
+  &__btns{
+    padding: 59px 0 310px;
+    display: flex;
+    column-gap: 14px;
+  }
+   &__img{
+     width: 50%;
+     position: absolute;
+     top: 70%;
+     transform: translateY(-50%);
+     right: 0;
+     &::before{
+         content: url(../assets/Rectangle.svg);
+         position: absolute;                       
+         bottom: 0;
+         left: -100%;
+       }
+     &-bsman{
+       width: 100%;
+     }
+   }
+}

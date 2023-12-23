@@ -1,0 +1,63 @@
+.reasons{
+  background: url("../assets/reasons.png");
+  opacity: 0.9;
+  background: #F6F6F6;
+  &__our{
+    width: 50%;
+    padding: 144px 0 142px;
+  }
+  &__display {
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+    &-line {
+      width: 3px;
+      height: 85px;
+      background: #377DFF;
+    }
+    &-title {
+      color: var(--main, #377DFF);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: 1px;
+
+      span {
+        color: #233142;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  &__number{
+    color: var(--main, #377DFF);
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 86px 0 38px;
+  }
+  &__subtitle{
+    color: #233142;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  &__desc{
+    color: #5C6F87;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 28px 0 46px;
+  }
+  &__subnumber{
+    color: #657991;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 38px;
+  }
+}

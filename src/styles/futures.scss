@@ -1,0 +1,15 @@
+.futures{
+  &__img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    span{
+      position: absolute;
+      left: 145px;
+    }
+    &-last{
+      background: rgba(18, 27, 38, 0.73);
+    }
+  }
+}
